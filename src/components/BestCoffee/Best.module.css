@@ -1,0 +1,147 @@
+.container {
+  max-width: 1600px;
+  width: 90%;
+  margin: 0 auto;
+  height: 500px;
+  display: flex;
+}
+
+.best_coffee {
+  width: 819px;
+  height: 486px;
+  margin-top: -30px;
+}
+
+.best_coffee > img {
+  width: 140%;
+  height: 90%;
+}
+.best_coffee > h1 {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 62px;
+  margin-left: 40px;
+  margin-top: -420px;
+  display: flex;
+
+  color: #ffffff;
+}
+.best_coffee>h2{
+    color: #fff;
+    font-size: 40px;
+    margin-right: 200px;
+    margin-top: -20px;
+}
+
+.coffee_swiper {
+  width: 100%;
+  height: 400px;
+  z-index: -1;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media(max-width:1024px){
+  .container{
+    max-width: 1024px;
+    width: 100%;
+  }
+  .best_coffee>img{
+    width: 550px;
+    height: 420px;
+  }
+  .swiper_img{
+    width:450px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: -40px;
+  }
+}
+@media (max-width:768px){
+  .container{
+    max-width: 768px;
+    width: 100%;
+  }
+  .coffee_swiper{
+    max-height: 350px;
+    height:100%;
+    max-width: 600px;
+    width: 100%;
+  }
+  .best_coffee>img{
+    width: 460px;
+    height: 300px;
+  }
+  .swiper_img{
+    width:345px;
+    height:240px;
+    margin-left: -5px;
+    margin-top: 0px;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width:426px){
+  .container{
+    max-width: 426px;
+    width: 100%;
+  }
+  .best_coffee>img{
+    width: 280px;
+    height: 200px;
+
+  }
+  .swiper_img{
+    z-index: -1;
+    width: 150px;
+    height: 150px;
+  }
+  .coffee_swiper{
+    height: 200px;
+  }
+}
+
+
+@media(max-width:376px){
+  .container{
+    max-width: 375px;
+    width: 100%;
+    max-height: 200px;
+    height: 100%;
+  }
+  .best_coffee>img{
+    width: 260px;
+    height: 160px;
+  }
+  .swiper_img{
+    width: 130px;
+    height: 120px;
+    margin-top: -10px;
+  }
+  .coffee_swiper{
+    height: 135px;
+  }
+}
+
+@media(max-width:320px){
+  .container{
+    max-width: 320px;
+    width: 100%;
+  }
+  .best_coffee{
+    width: 200px;
+    height: 100px;
+  }
+}

@@ -1,0 +1,51 @@
+.container_coffe{
+    max-width: 1600px;
+    width: 85%;
+    margin: 0 auto;
+    
+}
+@media (max-with:1600px){
+    .container{
+      max-width: 991px;
+    }
+  }
+.coffe_d > img{
+    width: 150px;
+    height: 150px;
+}
+.coffe{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.Coffe_p{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+
+}
+
+.cofe{
+    display: flex;
+}
+
+.cofe2{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    color: white;
+}
+.cofe2>p{
+    color: #E4B95B;
+
+}
+
+.huina{
+    width: 300px;
+    color: white;
+    display: flex;
+}
+
+.img_disk>img{
+    width: 100px;
+}
